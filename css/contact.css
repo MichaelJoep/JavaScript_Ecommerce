@@ -1,0 +1,126 @@
+#contact-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#about-header p {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+#contact-page .detail_page {
+    width: 40%;
+}
+
+#contact-page .detail_page span {
+    font-size: 12px;
+}
+
+#contact-page .detail_page h2 {
+    font-size: 23px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+#contact-page .detail_page h3 {
+    font-size: 16px;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+#contact-page .detail_page li {
+    display: flex;
+    list-style: none;
+    padding: 10px 0;
+    gap: 2rem;
+    color: #866fc4;
+    font-size: 14px;
+}
+
+#contact-page .detail_page li p {
+    color: #666;
+    margin: 0;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+#contact-page .map{
+    width: 55%;
+    height: 400px;
+}
+#contact-page .map iframe{
+    width: 100%;
+    height: 100%;
+}
+#form_detail form {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: auto;
+}
+#form_detail form span {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-align: center;
+}
+#form_detail form h2 {
+    font-size: 27px;
+    line-height: 35px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#form_detail form input {
+    outline: none;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    border: 1px solid #e1e1e1;
+    font-size: 14px;
+}
+
+#form_detail form textarea {
+    outline: none;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    border: 1px solid #e1e1e1;
+    font-size: 14px;
+    color: #666;
+    text-align: justify;
+}
+
+#form_detail form button {
+    padding: 15px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: none;
+    background-color: #866fc4;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#form_detail form button:hover {
+    opacity: 0.8;
+}
+
+/*MEDIA QUERIES*/
+
+@media(max-width:477px){
+    #contact-page {
+        flex-direction: column;
+    }
+    #contact-page .detail_page {
+        width: 100%;
+    }
+    #contact-page .map{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #form_detail form {
+        width: 100%;
+    }
+}

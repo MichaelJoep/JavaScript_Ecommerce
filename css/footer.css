@@ -1,0 +1,71 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer h3 {
+    font-weight: 800;
+    color: #2e0b8f;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+footer h3:hover {
+    color: #866fc4;
+}
+footer h3 span {
+    color: #866fc4;
+}
+footer h3 span:hover {
+    color: hsl(256, 86%, 30%);
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p {
+    font-size: 13px;
+    margin: 0 0 18px 0;
+}
+footer a {
+    font-size: 15px;
+    color: #866fc4;
+    padding: 0 5px 10px 5px;
+    
+}
+footer a:hover {
+    opacity: 0.8;
+}
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .about a{
+    color: #666;
+}
+
+footer .account a{
+    color: #666;
+}
+
+footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+footer .copyright {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
